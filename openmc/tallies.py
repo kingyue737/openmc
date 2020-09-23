@@ -1160,7 +1160,7 @@ class Tally(IDManagerMixin):
             A list of tuples of filter bins corresponding to the filter_types
             parameter (e.g., [(1,), ((0., 0.625e-6),)]; default is []). Each
             tuple contains bins for the corresponding filter type in the filters
-            parameter. Each bins is the integer ID for 'material', 'surface',
+            parameter. Each bin is the integer ID for 'material', 'surface',
             'cell', 'cellborn', and 'universe' Filters. Each bin is an integer
             for the cell instance ID for 'distribcell' Filters. Each bin is a
             2-tuple of floats for 'energy' and 'energyout' filters corresponding
